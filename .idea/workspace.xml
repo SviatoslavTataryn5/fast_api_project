@@ -4,15 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe260b75-2f99-4d39-9bda-288e2413a2d4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PythonProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonProject.iml" afterDir="false" />
+    <list default="true" id="fe260b75-2f99-4d39-9bda-288e2413a2d4" name="Changes" comment="init commit">
+      <change afterPath="$PROJECT_DIR$/lesson_2/core/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_2/core/handlers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_2/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_2/routers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_2/routers/books.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_2/schemas/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_2/schemas/books.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routers/books.py" beforeDir="false" afterPath="$PROJECT_DIR$/routers/books.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/books.py" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/books.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_1/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_1/routers/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routers/books.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_1/routers/books.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_1/schemas/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas/books.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_1/schemas/books.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +85,7 @@
       <recent name="C:\Users\wwwts\PycharmProjects\PythonProject" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wwwts\PycharmProjects\PythonProject\lesson_1" />
       <recent name="C:\Users\wwwts\PycharmProjects\PythonProject\schemas" />
     </key>
   </component>
@@ -105,12 +111,25 @@
       <updated>1761334330309</updated>
       <workItem from="1761334341144" duration="258000" />
       <workItem from="1761334688141" duration="1777000" />
-      <workItem from="1761394577370" duration="3131000" />
+      <workItem from="1761394577370" duration="3768000" />
     </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <option name="closed" value="true" />
+      <created>1761469030149</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1761469030149</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonProject$pass.coverage" NAME="pass Coverage Results" MODIFIED="1761396494536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

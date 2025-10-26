@@ -4,7 +4,7 @@ books_db = [{"name": "Harry Potter", "isbn": "9667047393"},
 
 
 from fastapi import APIRouter
-from schemas.books import Book
+from lesson_1.schemas.books import Book
 
 router = APIRouter()
 

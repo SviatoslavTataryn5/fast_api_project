@@ -1,0 +1,10 @@
+echo ".idea/" >> .gitignore
+git rm -r --cached .idea
+git add .gitignore
+git commit -m "Ignore IDE files"
+
+git config --global core.autocrlf true
+
+Set-Content -Path .gitattributes -Value "* text=auto`n*.xml text eol=lf`n.idea/** -text"
+git add --renormalize .
+git commit -m "Add gitattributes and normalize line endings"
